@@ -14,7 +14,7 @@
 
 .banner{
   width: 50%;
-  background-image: url("/public/assets/banner.png");
+  background-image: url("/assets/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
