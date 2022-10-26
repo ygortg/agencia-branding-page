@@ -1,0 +1,66 @@
+.whiteBanner{
+  background-color: white;
+}
+.darkBanner{
+  background-color: #252525;
+}
+
+#sectionBanner{
+  display:  flex;
+  height: 95vh;
+  padding-top: 90px;
+  position: relative;
+}
+
+.banner{
+  width: 50%;
+  background-image: url("/public/assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.texto-banner{
+  width: 50%;
+  padding: 0px 20px;
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafbfc;
+}
+.texto-banner p{
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #022144;
+  font-weight: 500;
+}
+.texto-banner h2{
+  font-size: 50px;
+  font-weight: 500;
+  color: #022144;
+}
+.texto-banner span{
+  font-size: 50px;
+  color: #022144;
+  font-weight: 900;
+}
+
+/*==================== Media 768px ====================*/
+@media screen and (max-width:768px){
+  .sectionBanner{
+    height: 70vh;
+  }
+  .banner{
+    display: none;
+  }
+  .texto-banner{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:375px){
+  .sectionBanner{
+    height: 90vh;
+  }
+}

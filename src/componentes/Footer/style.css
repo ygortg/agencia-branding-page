@@ -1,0 +1,61 @@
+.whiteFooter{
+  background-color: white;
+}
+.darkFooter{
+  background-color: #252525;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 70px;
+}
+
+footer .logoRodape{
+  width: auto;
+  height: auto;
+}
+
+footer p{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #8a8fa3;
+  text-align: center;
+  max-width: 530px;
+  margin: 36px auto 42px;
+}
+
+.redes{
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.redes img{
+  width: auto;
+  height: 45px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #8a8fa3;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.copyright span {
+  color: #fcc520;
+}

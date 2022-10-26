@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Topo from './componentes/Header';
+import Banner from './componentes/Banner';
+import ExperienciaTrabalho from './componentes/ExperienciaTrabalho';
+import Footer from './componentes/Footer';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  const AlterarTema = () =>{
+    setDarkMode(!darkMode)
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Topo AlterarTema={AlterarTema} darkMode={darkMode}/>
+      <Banner darkMode={darkMode}/>
+      <ExperienciaTrabalho darkMode={darkMode}/>
+      <Footer darkMode={darkMode}/>
+    </main>
   );
 }
 

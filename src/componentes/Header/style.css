@@ -1,0 +1,41 @@
+.whiteHeader{
+  background-color: white;
+}
+.darkHeader{
+  background-color: #252525;
+}
+
+header{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+button{
+  display: flex;
+  padding: 10px 10px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.logo{
+ max-height: 35px;
+}
+.botao{
+  width: 25px;
+  height: 25px;
+}
+.btn{
+  background-color: #fff;
+  border: 2px solid #747272;
+}
+.darkbtn{
+  background-color: #252525;
+  border: 2px solid white;
+}
