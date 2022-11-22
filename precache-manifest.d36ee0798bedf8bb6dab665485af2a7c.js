@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5de671ea22b71df3b665",
-    "url": "/agencia-branding-page/static/css/main.cd449ed4.chunk.css"
+    "revision": "b3dbdaafcd054af0c2c4",
+    "url": "/agencia-branding-page/static/css/main.6eddc0fd.chunk.css"
   },
   {
-    "revision": "5de671ea22b71df3b665",
-    "url": "/agencia-branding-page/static/js/main.5de671ea.chunk.js"
+    "revision": "b3dbdaafcd054af0c2c4",
+    "url": "/agencia-branding-page/static/js/main.b3dbdaaf.chunk.js"
   },
   {
     "revision": "0765819dcae452713017",
@@ -52,11 +52,7 @@ self.__precacheManifest = [
     "url": "/agencia-branding-page/static/media/google-plus.3e4f9779.png"
   },
   {
-    "revision": "050cf62e645aeae0b6b5bf7589c4094d",
-    "url": "/agencia-branding-page/static/media/banner.050cf62e.png"
-  },
-  {
-    "revision": "1f6e9e61d1c0f3a9a09c27625d2be1a8",
+    "revision": "afe8c51819fa95bba29179f44907b9af",
     "url": "/agencia-branding-page/index.html"
   }
 ];
