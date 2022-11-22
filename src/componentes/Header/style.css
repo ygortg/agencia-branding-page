@@ -19,6 +19,7 @@ header{
 button{
   display: flex;
   padding: 10px 10px;
+  margin-right: 30px;
   cursor: pointer;
   align-items: center;
   border-radius: 25px;
