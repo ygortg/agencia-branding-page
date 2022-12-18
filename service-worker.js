@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/agencia-branding-page/precache-manifest.d36ee0798bedf8bb6dab665485af2a7c.js"
+  "/agencia-branding-page/precache-manifest.8f3b153bdecf1ab6d48a97db8c9d1ca4.js"
 );
 
 workbox.clientsClaim();
